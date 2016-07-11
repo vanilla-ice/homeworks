@@ -4,7 +4,8 @@
   "description": "Test task for understanding Gulp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/amiskov/homeworks/issues"
   },
-  "homepage": "https://github.com/amiskov/homeworks#readme"
+  "homepage": "https://github.com/amiskov/homeworks#readme",
+  "dependencies": {
+    "autoprefixer": "^6.3.7",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.8"
+  }
 }
